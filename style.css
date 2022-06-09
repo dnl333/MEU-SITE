@@ -33,6 +33,17 @@ body{
         border-radius: 1px;
         margin-top:1px ;}
 
+        .fixo{
+            position:fixed; 
+            right:0;
+            cursor: pointer;}
+            
+        .fixo img{
+            width: 200px;} 
+        
+                     @media screen and (max-width:600px){
+                     .fixo img{width: 150px;}}
+
       
       h1{font-size: 30px;}
 
