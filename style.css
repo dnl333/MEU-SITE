@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding:0;}
+
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #181717;
+    color: #000000;
+    max-width: 1400px;
+    margin: auto;
+    color:#ffffff;}
+
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;}
+
+    .container img{ 
+            width: 90%;
+            border-radius: 4px;
+            margin: auto;
+            display: block;}
+
+    .conteudo{
+        background-color: rgba(212, 72, 194, 0.815);
+        width:90% ;
+        margin: auto;
+        text-align: center;
+        border-radius: 1px;
+        margin-top:1px ;}
+
+      
+      h1{font-size: 30px;}
+
+      h1:hover{
+          background-color: #000000; 
+          color:#ffffff;}
+
+      p{
+          padding:55px;
+          font-size: 19px;
+          text-shadow: 5px,5px,5px,black;}
+
+    input{
+          width: 300px;
+          height: 25px;
+          display: block;
+          margin: auto;
+          box-sizing: border-box;
+          border: none;
+          margin-bottom:10px ;}
+
+    textarea{
+        width: 50%;
+        height: 100px;}
+
+                    @media screen and (max-width:600px){
+                    textarea{width: 80%;}}
+
+    input[type="submit"]{
+        width: 150px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 100px;
+        padding: 1px;}
+
+    input:hover[type="submit"]{
+        background-color: #f3982e;
+        color: #ffffff;
+        cursor:pointer;}
+
+    .projetos img{
+        width: 70%;
+        border-radius: 5px;}
+
+                    @media screen and (max-width:600px){
+                    .projetos img{width: 95%;}}
+
+    .projetos h3{
+        font-size: 21px;}        
+            
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.815);
+        width:90% ;
+        margin: auto;
+        text-align: center;
+        border-radius: 4px;
+        height: 40%;
+        padding: 1px;}
+
+        footer p {
+            font-size: small;
+            text-align: left;}
+
+
+
+   
+
+
+
+
+  
+
+
+
+
+    
+    
+  
+ 
+    
+    
+    
+ 
+   
+    
+    
