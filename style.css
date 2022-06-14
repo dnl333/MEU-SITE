@@ -46,11 +46,9 @@ body{background-image: url(imagens/fundo.jpg);
                      .fixo img{width: 150px;}}
 
       
-      h1{font-size: 30px;}
-
-      h1:hover{
-          background-color: #000000; 
-          color:#ffffff;}
+      h1{
+        font-size: 30px;
+        padding-top: 15px;}
 
       p{
           padding:55px;
