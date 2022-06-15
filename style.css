@@ -150,6 +150,12 @@ body{background-image: url(imagens/fundo.jpg);
             font-size: small;
             text-align: left;}
 
+        footer a {
+            text-decoration: none;
+            color: #85d2ff;
+            margin-left: 5px;
+            text-decoration: underline;}
+
             @media screen  and (max-width:600px) {
                 h1 { font-size:30px}}
 
