@@ -114,9 +114,30 @@ body{background-image: url(imagens/fundo.jpg);
         border-radius: 5px;
         margin-bottom: 50px;
         margin-top: 20px;}
-            
 
-    footer{
+    .outros img {
+        display: inline-block;
+        max-width: 80%;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 500px;
+        height: 480px;
+       }
+
+                     @media screen and (max-width:600px) {
+                     .outros img{ border-radius: 1000px;
+                                  height: 220px;
+                                  margin-top: 35px;}}
+
+     .outros2 {
+        max-width: 380px;
+        display: inline-block;
+        text-align: justify;}
+
+                    @media screen and (max-width:600px) {
+                    .outros2{text-align: center;}}
+
+        footer{
         background-color: rgba(0, 0, 0, 0.822);
         width:90% ;
         margin: auto;
@@ -137,6 +158,18 @@ body{background-image: url(imagens/fundo.jpg);
 
                     @media screen  and (max-width:600px) {
                        p { font-size:17px; }}
+
+
+/* ABAIXO OS MEDIA SCREEN DAS FONTES H2 E H3*/
+
+@media screen and (max-width:600px){
+    h2{font-size: 15px;
+        padding: 3px }}
+
+        @media screen and (max-width:600px){
+            .projetos h3{font-size: 15px;
+                padding: 3px }}
+                       
                     
             
 
